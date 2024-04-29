@@ -5,7 +5,7 @@ const AboutHeader = () => {
     <>
       <div className="w-full h-80 text-black relative ">
         <img
-          src="./src/assets/AboutImage.jpeg"
+          src="./src/assets/Aboutpage/AboutImage.jpeg"
           alt=""
           className="w-full h-80 object-cover absolute "
         />
