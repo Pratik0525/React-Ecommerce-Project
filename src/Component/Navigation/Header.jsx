@@ -5,7 +5,7 @@ import { FaCartPlus, FaHeart } from "react-icons/fa";
 const Header = () => {
   return (
     <>
-      <div className=" bg-purple-500 h-20 flex items-center">
+      <div className=" bg-[#AD43AD] h-20 flex items-center">
         <div className="flex justify-between w-10/12  mx-auto ">
           <div className="flex gap-3 items-center">
             <span className="text-3xl text-white ">Nepse</span>
