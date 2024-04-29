@@ -3,7 +3,7 @@ import React from "react";
 const Afterheader = () => {
   return (
     <>
-      <div className="bg-[#f7b3f7] ">
+      <div className="bg-[#f7b3f7] py-1">
         <div className=" text-sm w-11/12 mx-auto flex gap-7 text-black font-light">
           <span>Best Sales</span>
           <span>Most Popular</span>

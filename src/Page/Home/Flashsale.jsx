@@ -27,7 +27,7 @@ const Flashsales = [
 const Flashsale = () => {
   return (
     <>
-      <div className=" w-10/12 mx-auto">
+      <div className=" w-10/12 mx-auto py-10">
         <div className="flex items-center">
           <span className=" w-1/6 text-2xl">Flash Span</span>
           <div className="w-7/12 bg-black h-[1px]  "></div>
@@ -39,7 +39,7 @@ const Flashsale = () => {
               return (
                 <div className="flex flex-col gap-5 bg-[#F3ECF3] py-5 rounded-lg h-fit w-fit px-2">
                   <div className="flex justify-between items-center px-2">
-                    <div className="w-16 flex justify-center items-center h-fit bg-[#AD43AD] rounded-md">
+                    <div className="w-16 flex justify-center items-center h-fit bg-[#AD43AD] rounded-md text-white">
                       -20%
                     </div>
                     <IoMdStarOutline className="text-xl cursor-pointer" />

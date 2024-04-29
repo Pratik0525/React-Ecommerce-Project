@@ -8,7 +8,9 @@ const Header = () => {
       <div className=" bg-[#AD43AD] h-20 flex items-center">
         <div className="flex justify-between w-10/12  mx-auto ">
           <div className="flex gap-3 items-center">
-            <span className="text-3xl text-white ">Nepse</span>
+            <div>
+              <span className="text-3xl text-white ">Nepse</span>
+            </div>
             <div className="flex bg-white items-center rounded-lg px-2">
               <input
                 type="text"
@@ -19,13 +21,15 @@ const Header = () => {
               />
               <CiSearch className="   h-full w-6" />
             </div>
-            <input
-              type="text"
-              name=""
-              id=""
-              placeholder="Category"
-              className="w-28 h-10 rounded-lg px-2 placeholder:text-sm"
-            />
+            <div>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Category"
+                className="w-28 h-10 rounded-lg px-2 placeholder:text-sm"
+              />
+            </div>
           </div>
           <div className="flex gap-3 items-center text-white">
             <CgProfile />

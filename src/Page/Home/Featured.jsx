@@ -2,44 +2,39 @@ import React from "react";
 const Categories = [
   {
     text: "Male Outfit  ",
-    image:
-      "C:UserspandeDesktopReact ProjectEcommerce-React-projectsrcassetsFeaturedCategoriesmaleoutfit.jpg",
+    image: "./src/assets/FeaturedCategories/maleoutfit.jpg",
   },
   {
     text: "Mobile ",
-    image:
-      "C:UserspandeDesktopReact ProjectEcommerce-React-projectsrcassetsFeaturedCategoriesMobile.jpg",
+    image: "./src/assets/FeaturedCategories/Mobile.jpg",
   },
   {
     text: "Shoes",
-    image:
-      "C:UserspandeDesktopReact ProjectEcommerce-React-projectsrcassetsFeaturedCategoriesShoes.jpeg",
+    image: "./src/assets/FeaturedCategories/Shoes.jpeg",
   },
   {
     text: "Kid Toy's",
-    image:
-      "C:UserspandeDesktopReact ProjectEcommerce-React-projectsrcassetsFeaturedCategoriesToys.jpg",
+    image: "./src/assets/FeaturedCategories/Toys.jpg",
   },
   {
     text: "Furniture",
-    image:
-      "C:UserspandeDesktopReact ProjectEcommerce-React-projectsrcassetsFeaturedCategoriesFurniture.jpeg",
+    image: "./src/assets/FeaturedCategories/Furniture.jpeg",
   },
   {
     text: "Snacks",
-    image: "./src/assets/Snacks.jpg",
+    image: "./src/assets/FeaturedCategories/Snacks.jpg",
   },
 ];
 const Featured = () => {
   return (
     <>
-      <div className="bg-yellow-500">
+      <div className="">
         <div className="w-10/12 mx-auto flex flex-col gap-5">
-          <div className="text-2xl ">Featured Categories</div>
+          <div className="text-2xl font-semibold">Featured Categories</div>
           <div className="flex gap-6">
             {Categories.map((val, i) => {
               return (
-                <div className="w-40 h-28 bg-green-500 relative cursor-pointer group rounded-lg">
+                <div className="w-40 h-28 bg-green-500 relative cursor-pointer group rounded-lg shadow-xl shadow-gray-400">
                   <img
                     src={val.image}
                     alt=""

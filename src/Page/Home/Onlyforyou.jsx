@@ -23,62 +23,62 @@ const Flashsales = [
     price: "$500",
   },
   {
-    image: "./src/assets/FlashSale/Coatlady.jpeg",
+    image: "./src/assets/Onlyforyou/Car1.jpeg",
     title: "DJI Phantom 4 Multispectral",
     price: "$232",
   },
   {
-    image: "./src/assets/FlashSale/BUrger.jpeg",
+    image: "./src/assets/Onlyforyou/Car2.png",
     title: "DJI Phantom 4 Multispectral",
     price: "$233",
   },
   {
-    image: "./src/assets/FlashSale/Car.jpeg",
+    image: "./src/assets/Onlyforyou/Car3.png",
     title: "DJI Phantom 4 Multispectral",
     price: "$250",
   },
   {
-    image: "./src/assets/FlashSale/Cycle.jpeg",
+    image: "./src/assets/Onlyforyou/Car4.jpeg",
     title: "DJI Phantom 4 Multispectral",
     price: "$500",
   },
   {
-    image: "./src/assets/FlashSale/Coatlady.jpeg",
+    image: "./src/assets/Onlyforyou/Shoes1.jpeg",
     title: "DJI Phantom 4 Multispectral",
     price: "$232",
   },
   {
-    image: "./src/assets/FlashSale/BUrger.jpeg",
+    image: "./src/assets/Onlyforyou/Shoes2.jpg",
     title: "DJI Phantom 4 Multispectral",
     price: "$233",
   },
   {
-    image: "./src/assets/FlashSale/Car.jpeg",
+    image: "./src/assets/Onlyforyou/Boot.png",
     title: "DJI Phantom 4 Multispectral",
     price: "$250",
   },
   {
-    image: "./src/assets/FlashSale/Cycle.jpeg",
+    image: "./src/assets/Onlyforyou/Converse.jpeg",
     title: "DJI Phantom 4 Multispectral",
     price: "$500",
   },
   {
-    image: "./src/assets/FlashSale/Coatlady.jpeg",
+    image: "./src/assets/Onlyforyou/Jacket1.jpeg",
     title: "DJI Phantom 4 Multispectral",
     price: "$232",
   },
   {
-    image: "./src/assets/FlashSale/BUrger.jpeg",
+    image: "./src/assets/Onlyforyou/Jacket2.png",
     title: "DJI Phantom 4 Multispectral",
     price: "$233",
   },
   {
-    image: "./src/assets/FlashSale/Car.jpeg",
+    image: "./src/assets/Onlyforyou/Jacket3.png",
     title: "DJI Phantom 4 Multispectral",
     price: "$250",
   },
   {
-    image: "./src/assets/FlashSale/Cycle.jpeg",
+    image: "./src/assets/Onlyforyou/Jacket4.png",
     title: "DJI Phantom 4 Multispectral",
     price: "$500",
   },
@@ -86,11 +86,11 @@ const Flashsales = [
 const Onlyforyou = () => {
   return (
     <>
-      <div className=" w-10/12 mx-auto">
+      <div className=" w-10/12 mx-auto py-10">
         <div className="flex items-center justify-between">
           <span className=" text-2xl">Only for you</span>
           <div className=" w-9/12 bg-black h-[1px]  "></div>
-          <span className="text-[#AD43AD] border-[1px] border-[#AD43AD] bg-white p-2">
+          <span className="text-[#AD43AD] border-[1px] border-[#AD43AD] bg-white p-2 hover:bg-[#ad43ad] hover:text-white transition-all delay-75 duration-300 ease-out cursor-pointer">
             See More
           </span>
         </div>
@@ -101,7 +101,7 @@ const Onlyforyou = () => {
                 <>
                   <div className="flex flex-col gap-5 bg-[#F3ECF3] py-5 rounded-lg h-fit w-fit px-2">
                     <div className="flex justify-between items-center px-2">
-                      <div className="w-16 flex justify-center items-center h-fit bg-[#AD43AD] rounded-md">
+                      <div className="w-16 flex justify-center items-center h-fit bg-[#AD43AD] rounded-md text-white">
                         -20%
                       </div>
                       <IoMdStarOutline className="text-xl cursor-pointer" />

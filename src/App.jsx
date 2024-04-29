@@ -1,21 +1,29 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
+
+import Footer from "./Footer/Footer";
+import Home from "./Component/PageComponent/Home";
 import Layout from "./HOC/Layout";
-import Landing from "./Page/Home/Landing";
-import Featured from "./Page/Home/Featured";
-import Bestseller from "./Page/Home/Bestseller";
-import Flashsale from "./Page/Home/Flashsale";
-import Onlyforyou from "./Page/Home/Onlyforyou";
+import About from "./Component/PageComponent/About";
 
 const App = () => {
   return (
     <>
-      <div className="bg-gray-300">
-        <Layout />
-        <Landing />
-        <Featured />
-        <Bestseller />
-        <Flashsale />
-        <Onlyforyou />
+      <div className="bg-[#FFFFFF]">
+        <Router>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="About" element={<About />} />
+              {/* <Route path="Contact" element={<Contact />} /> */}
+            </Route>
+          </Routes>
+        </Router>
       </div>
     </>
   );
