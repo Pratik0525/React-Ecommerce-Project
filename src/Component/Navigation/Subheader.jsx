@@ -1,5 +1,6 @@
 import React from "react";
 import { CiMail, CiTwitter, CiInstagram, CiFacebook } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const Subheader = () => {
   return (
@@ -7,7 +8,7 @@ const Subheader = () => {
       <div className="bg-[#AD43AD] h-6 flex items-center text-white">
         <div className="flex justify-between w-9/12 mx-auto">
           <div className="text-xs flex gap-4">
-            <span>Become Seller</span>
+            <Link to="/Seller">Become Seller</Link>
             <span>Help & Support</span>
             <span>Teams & Services</span>
             <span>Coupon & Discount</span>

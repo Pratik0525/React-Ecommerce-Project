@@ -27,7 +27,7 @@ const Footer = () => {
               <span>Costumer Care</span>
             </div>
             <div className="flex flex-col gap-5 text-xs ">
-              <Link to="/about" className="hover:underline">
+              <Link to="/About" className="hover:underline">
                 About us
               </Link>
               <a href="" className="hover:underline">

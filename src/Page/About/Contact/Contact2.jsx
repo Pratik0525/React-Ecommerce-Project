@@ -10,7 +10,7 @@ const Contact2 = () => {
         <div className="flex flex-col gap-28 ">
           <div className="flex gap-5">
             <div className="bg-white flex justify-center items-center rounded-3xl p-3">
-              <CiMail className="text-3xl" />
+              <CiMail className="text-3xl text-[#9A0099]" />
             </div>
             <div className="text-white">
               <p className="text-xl">Email</p>
@@ -19,7 +19,7 @@ const Contact2 = () => {
           </div>
           <div className="flex gap-5">
             <div className="bg-white flex justify-center items-center rounded-3xl p-3">
-              <FaPhoneVolume className="text-3xl" />
+              <FaPhoneVolume className="text-3xl text-[#9A0099]" />
             </div>
             <div className="text-white">
               <p className="text-xl">Phone</p>
@@ -28,7 +28,7 @@ const Contact2 = () => {
           </div>
           <div className="flex gap-5">
             <div className="bg-white flex justify-center items-center rounded-3xl p-3">
-              <FiBarChart2 className="text-3xl" />
+              <FiBarChart2 className="text-3xl text-[#9A0099]" />
             </div>
             <div className="text-white">
               <p className="text-xl">Socials</p>
