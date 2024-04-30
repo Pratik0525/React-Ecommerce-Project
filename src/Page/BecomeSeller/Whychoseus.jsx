@@ -6,6 +6,10 @@ import { FaFistRaised, FaHandshake } from "react-icons/fa";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FcOnlineSupport } from "react-icons/fc";
 import { MdPayments } from "react-icons/md";
+import Images1 from "../../assets/Aboutpage/1.png";
+import Images2 from "../../assets/Aboutpage/2.png";
+import Images3 from "../../assets/Aboutpage/3.png";
+import Images4 from "../../assets/Aboutpage/4.jpg";
 const Box = [
   {
     Icon: <CiDeliveryTruck />,

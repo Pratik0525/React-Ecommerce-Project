@@ -3,6 +3,7 @@ import Header from "../../Page/BecomeSeller/Header";
 import Whychoseus from "../../Page/BecomeSeller/Whychoseus";
 import Haveanyquestion from "../../Page/BecomeSeller/Haveanyquestion";
 import ClientsSaying from "../../Page/BecomeSeller/ClientsSaying";
+import Frequentlyaskquestion from "../../Page/BecomeSeller/Frequentlyaskquestion";
 const Becomeseller = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const Becomeseller = () => {
       <Whychoseus />
       <Haveanyquestion />
       <ClientsSaying />
+      <Frequentlyaskquestion />
     </>
   );
 };
