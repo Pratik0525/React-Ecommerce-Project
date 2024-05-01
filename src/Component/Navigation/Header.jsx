@@ -34,9 +34,11 @@ const Header = () => {
               />
             </div>
           </div>
-          <div className="flex gap-3 items-center text-white">
+          <div className="flex gap-3 items-center text-white text-sm">
             <CgProfile />
-            <span>Sign Up</span>
+            <Link to="/Signup" className="text-sm ">
+              Sign Up
+            </Link>
             <FaHeart />
             <FaCartPlus />
           </div>

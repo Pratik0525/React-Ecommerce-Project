@@ -25,7 +25,7 @@ const Box = [
 const Box3 = () => {
   return (
     <>
-      <div className="w-11/12 py-5 mx-auto  flex justify-around items-center">
+      <div className="w-11/12 pb-16 mx-auto  flex justify-around items-center">
         {Box.map((val, i) => {
           return (
             <div className="w-80 h-fit px-5 bg-[#F1DAF1] flex flex-col justify-center items-center gap-5 py-10">

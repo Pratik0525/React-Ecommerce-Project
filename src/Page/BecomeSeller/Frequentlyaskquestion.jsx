@@ -36,7 +36,7 @@ const Frequentlyaskquestion = () => {
   const [accordionOpen, setaccordionOpen] = useState(false);
   return (
     <>
-      <div className="flex flex-col pb-20 pt-5 gap-10">
+      <div className="flex flex-col pb-20 pt-10 gap-10">
         <div className="w-11/12 mx-auto">
           <span className="text-2xl">
             Frequently Asked <span className="text-[#AD43AD]"> Questions </span>

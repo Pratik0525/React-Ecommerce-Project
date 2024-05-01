@@ -41,7 +41,7 @@ const Whychoseus = () => {
   return (
     <>
       <div>
-        <div className="w-11/12 mx-auto flex flex-col gap-5 py-10 ">
+        <div className="w-11/12 mx-auto flex flex-col gap-10 py-16 ">
           <div>
             <p className="text-3xl font-semibold">Why Choose us?</p>
           </div>

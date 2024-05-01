@@ -10,8 +10,8 @@ const Becomeseller = () => {
       <Header />
       <Whychoseus />
       <Haveanyquestion />
-      <ClientsSaying />
       <Frequentlyaskquestion />
+      <ClientsSaying />
     </>
   );
 };
