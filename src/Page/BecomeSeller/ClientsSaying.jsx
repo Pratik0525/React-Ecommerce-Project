@@ -6,28 +6,28 @@ import Images1 from "../../assets/Bestseller/1.png";
 // import Images4 from "../assets/Bestseller/1.png";
 const Box = [
   {
-    Image: { Images1 },
+    Image: Images1,
     topic: "Nico Robin",
     location: "Kathmandu Nepal",
     description:
       "uam tempus dapibus. In hac habitasse platea dictumst. Sed feugiat, urna ",
   },
   {
-    Image: { Images1 },
+    Image: Images1,
     topic: "Nico Robin",
     location: "Kathmandu Nepal",
     description:
       "uam tempus dapibus. In hac habitasse platea dictumst. Sed feugiat, urna ",
   },
   {
-    Image: { Images1 },
+    Image: Images1,
     topic: "Nico Robin",
     location: "Kathmandu Nepal",
     description:
       "uam tempus dapibus. In hac habitasse platea dictumst. Sed feugiat, urna ",
   },
   {
-    Image: { Images1 },
+    Image: Images1,
     topic: "Nico Robin",
     location: "Kathmandu Nepal",
     description:

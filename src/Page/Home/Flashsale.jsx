@@ -2,24 +2,28 @@ import React from "react";
 import { GrStrikeThrough } from "react-icons/gr";
 import { IoMdStarOutline } from "react-icons/io";
 import { IoStar } from "react-icons/io5";
+import Images1 from "../../assets/FlashSale/BUrger.jpeg";
+import Images2 from "../../assets/FlashSale/Car.jpeg";
+import Images3 from "../../assets/FlashSale/Coatlady.jpeg";
+import Images4 from "../../assets/FlashSale/Cycle.jpeg";
 const Flashsales = [
   {
-    image: "./src/assets/FlashSale/Coatlady.jpeg",
+    image: Images1,
     title: "DJI Phantom 4 Multispectral",
     price: "$232",
   },
   {
-    image: "./src/assets/FlashSale/BUrger.jpeg",
+    image: Images2,
     title: "DJI Phantom 4 Multispectral",
     price: "$233",
   },
   {
-    image: "./src/assets/FlashSale/Car.jpeg",
+    image: Images3,
     title: "DJI Phantom 4 Multispectral",
     price: "$250",
   },
   {
-    image: "./src/assets/FlashSale/Cycle.jpeg",
+    image: Images4,
     title: "DJI Phantom 4 Multispectral",
     price: "$500",
   },

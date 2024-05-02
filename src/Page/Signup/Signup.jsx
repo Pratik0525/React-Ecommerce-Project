@@ -79,7 +79,10 @@ const Signup = () => {
 
               <div className=" flex flex-col gap-1 mt-2 w-10/12 mx-auto">
                 <div>
-                  <button className="text-sm font-normal w-full rounded-lg h-fit p-2 transition-all delay-100 duration-700  ease-in-out text-white font-semibold hover:bg-teal-600 bg-[#AD43AD]">
+                  <button
+                    className="text-sm  w-full rounded-lg h-fit p-2 transition-all delay-100 duration-200  
+                  ease-in-out text-white font-semibold hover:bg-[#c657c6] bg-[#AD43AD]"
+                  >
                     Login
                   </button>
                 </div>

@@ -1,84 +1,100 @@
 import React from "react";
 import { IoMdStarOutline } from "react-icons/io";
 import { IoCartOutline, IoStar } from "react-icons/io5";
+import Images1 from "../../assets/Onlyforyou/Coatlady.jpeg";
+import Images2 from "../../assets/Onlyforyou/Cycle.png";
+// import Images1 from "../../assets/Onlyforyou/Coatlady.jpeg";
+// import Images1 from "../../assets/Onlyforyou/Coatlady.jpeg";
+import Images5 from "../../assets/Onlyforyou/Car1.jpeg";
+import Images6 from "../../assets/Onlyforyou/Car2.png";
+import Images7 from "../../assets/Onlyforyou/Car3.png";
+import Images8 from "../../assets/Onlyforyou/Car4.jpeg";
+import Images9 from "../../assets/Onlyforyou/Jacket1.jpeg";
+import Images10 from "../../assets/Onlyforyou/Jacket2.png";
+import Images11 from "../../assets/Onlyforyou/Jacket3.png";
+import Images12 from "../../assets/Onlyforyou/Jacket4.png";
+import Images13 from "../../assets/Onlyforyou/Shoes1.jpeg";
+import Images14 from "../../assets/Onlyforyou/Shoes2.jpg";
+import Images15 from "../../assets/Onlyforyou/Boot.png";
+import Images16 from "../../assets/Onlyforyou/Converse.jpeg";
 const Flashsales = [
   {
-    image: "./src/assets/FlashSale/Coatlady.jpeg",
+    image: Images1,
     title: "DJI Phantom 4 Multispectral",
     price: "$232",
   },
   {
-    image: "./src/assets/FlashSale/BUrger.jpeg",
+    image: Images2,
     title: "DJI Phantom 4 Multispectral",
     price: "$233",
   },
   {
-    image: "./src/assets/FlashSale/Car.jpeg",
+    image: Images1,
     title: "DJI Phantom 4 Multispectral",
     price: "$250",
   },
   {
-    image: "./src/assets/FlashSale/Cycle.jpeg",
+    image: Images1,
     title: "DJI Phantom 4 Multispectral",
     price: "$500",
   },
   {
-    image: "./src/assets/Onlyforyou/Car1.jpeg",
+    image: Images5,
     title: "DJI Phantom 4 Multispectral",
     price: "$232",
   },
   {
-    image: "./src/assets/Onlyforyou/Car2.png",
+    image: Images6,
     title: "DJI Phantom 4 Multispectral",
     price: "$233",
   },
   {
-    image: "./src/assets/Onlyforyou/Car3.png",
+    image: Images7,
     title: "DJI Phantom 4 Multispectral",
     price: "$250",
   },
   {
-    image: "./src/assets/Onlyforyou/Car4.jpeg",
+    image: Images8,
     title: "DJI Phantom 4 Multispectral",
     price: "$500",
   },
   {
-    image: "./src/assets/Onlyforyou/Shoes1.jpeg",
+    image: Images9,
     title: "DJI Phantom 4 Multispectral",
     price: "$232",
   },
   {
-    image: "./src/assets/Onlyforyou/Shoes2.jpg",
+    image: Images10,
     title: "DJI Phantom 4 Multispectral",
     price: "$233",
   },
   {
-    image: "./src/assets/Onlyforyou/Boot.png",
+    image: Images11,
     title: "DJI Phantom 4 Multispectral",
     price: "$250",
   },
   {
-    image: "./src/assets/Onlyforyou/Converse.jpeg",
+    image: Images12,
     title: "DJI Phantom 4 Multispectral",
     price: "$500",
   },
   {
-    image: "./src/assets/Onlyforyou/Jacket1.jpeg",
+    image: Images13,
     title: "DJI Phantom 4 Multispectral",
     price: "$232",
   },
   {
-    image: "./src/assets/Onlyforyou/Jacket2.png",
+    image: Images14,
     title: "DJI Phantom 4 Multispectral",
     price: "$233",
   },
   {
-    image: "./src/assets/Onlyforyou/Jacket3.png",
+    image: Images15,
     title: "DJI Phantom 4 Multispectral",
     price: "$250",
   },
   {
-    image: "./src/assets/Onlyforyou/Jacket4.png",
+    image: Images16,
     title: "DJI Phantom 4 Multispectral",
     price: "$500",
   },
