@@ -6,7 +6,7 @@ import { FiBarChart2 } from "react-icons/fi";
 const Contact = () => {
   return (
     <div>
-      <div className="w-10/12 mx-auto  ">
+      <div className="w-11/12 mx-auto  ">
         <div className="flex flex-col gap-5">
           <header className="bg-white rounded-lg w-fit px-2">Contact</header>
           <span className="text-white text-3xl">Let’s stay connected</span>

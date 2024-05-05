@@ -6,7 +6,7 @@ import { FiBarChart2 } from "react-icons/fi";
 const Contact2 = () => {
   return (
     <>
-      <div className="flex justify-around items-center py-10">
+      <div className="flex justify-evenly items-center py-10   ">
         <div className="flex flex-col gap-28 ">
           <div className="flex gap-5">
             <div className="bg-white flex justify-center items-center rounded-3xl p-3">

@@ -1,11 +1,11 @@
 import React from "react";
-import Signup from "../../Page/Signup/Signup";
+import MainSignup from "../../Page/Signup/MainSignup";
 
 const Signups = () => {
   return (
     <>
       <div>
-        <Signup />
+        <MainSignup />
       </div>
     </>
   );

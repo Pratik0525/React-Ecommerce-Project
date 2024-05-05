@@ -25,10 +25,10 @@ const Box = [
 const Box3 = () => {
   return (
     <>
-      <div className="w-11/12 pb-16 mx-auto  flex justify-around items-center">
+      <div className="w-11/12 pb-16 mx-auto  flex justify-between items-center ">
         {Box.map((val, i) => {
           return (
-            <div className="w-80 h-fit px-5 bg-[#F1DAF1] flex flex-col justify-center items-center gap-5 py-10">
+            <div className="w-80 h-fit px-10 bg-[#F1DAF1] flex flex-col justify-center items-center gap-5 py-10">
               <div className="text-6xl text-[#AD43AD] ">{val.Icon}</div>
               <div className="text-xl " align="center">
                 {val.topic}

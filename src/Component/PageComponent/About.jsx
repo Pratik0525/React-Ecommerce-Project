@@ -6,6 +6,7 @@ import Ourmission from "../../Page/About/Ourmission";
 import Box3 from "../../Page/About/Box3";
 import Contact from "../../Page/About/Contact/Contacts";
 import Oursuccess from "../../Page/About/Oursuccess";
+import Clientslebhaneko from "../../Page/About/Contact/Clientslebhaneko";
 
 const About = () => {
   return (
@@ -18,6 +19,7 @@ const About = () => {
         <Box3 />
         <Contact />
         <Oursuccess />
+        <Clientslebhaneko />
       </div>
     </>
   );
