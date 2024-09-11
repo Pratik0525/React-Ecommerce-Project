@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { MdKeyboardArrowDown, MdOutlineKeyboardArrowUp } from "react-icons/md";
 const Value = [
   {
@@ -45,32 +45,37 @@ const Frequentlyaskquestion = () => {
         <div className=" flex flex-col gap-10">
           {Value.map((val, i) => {
             return (
-              <div className="w-11/12 mx-auto">
-                <button
-                  className=" flex justify-between items-center px-5 w-full h-12 shadow-md shadow-gray-300 "
-                  onClick={() => setaccordionOpen(!accordionOpen)}
-                >
-                  <span className="text-xl">{val.title}</span>
-                  {accordionOpen ? (
-                    <span>
-                      <MdOutlineKeyboardArrowUp className="text-2xl" />
-                    </span>
-                  ) : (
-                    <span>
-                      <MdKeyboardArrowDown className="text-2xl" />
-                    </span>
-                  )}
-                </button>
-                <div
-                  className={` grid overflow-hiddden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
-                    accordionOpen
-                      ? " grid-rows-[1fr] opacity-100"
-                      : "grid-rows-[0fr] opacity-0"
-                  }`}
-                >
-                  <div className="overflow-hidden px-2">{val.description}</div>
+              <>
+                {" "}
+                <div className="w-11/12 mx-auto">
+                  <button
+                    className=" flex justify-between items-center px-5 w-full h-12 shadow-md shadow-gray-300 "
+                    onClick={() => setaccordionOpen(!accordionOpen)}
+                  >
+                    <span className="text-xl">{val.title}</span>
+                    {accordionOpen ? (
+                      <span>
+                        <MdOutlineKeyboardArrowUp className="text-2xl" />
+                      </span>
+                    ) : (
+                      <span>
+                        <MdKeyboardArrowDown className="text-2xl" />
+                      </span>
+                    )}
+                  </button>
+                  <div
+                    className={` grid overflow-hiddden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
+                      accordionOpen
+                        ? " grid-rows-[1fr] opacity-100"
+                        : "grid-rows-[0fr] opacity-0"
+                    }`}
+                  >
+                    <div className="overflow-hidden px-2">
+                      {val.description}
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </>
             );
           })}
         </div>

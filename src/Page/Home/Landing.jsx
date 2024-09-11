@@ -3,8 +3,8 @@ import React from "react";
 const Landing = () => {
   return (
     <>
-      <div className="grid grid-cols-2 h-fit  py-5 w-10/12 mx-auto">
-        <div className=" flex flex-col justify-center  gap-5 py-40">
+      <div className="grid grid-cols-2 h-fit  py-5 w-11/12  mx-auto">
+        <div className=" flex flex-col justify-center  gap-5 py-40 pl-20   ">
           <div>
             <span className="text-3xl text-[#AD43AD]">25% Discount</span>
           </div>
@@ -24,7 +24,7 @@ const Landing = () => {
             </button>
           </div>
         </div>
-        <div className="">
+        <div className="flex justify-end items-center ">
           <img src="./src/assets/Landingimage.png" alt="" />
         </div>
       </div>

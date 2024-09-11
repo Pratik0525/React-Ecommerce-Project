@@ -13,41 +13,38 @@ const Flashsales = [
     price: "$232",
   },
   {
-    image: Images2,
+    image: Images1,
     title: "DJI Phantom 4 Multispectral",
-    price: "$233",
-  },
-  {
-    image: Images3,
+    price: "$232",
+  },{
+    image: Images1,
     title: "DJI Phantom 4 Multispectral",
-    price: "$250",
-  },
-  {
-    image: Images4,
+    price: "$232",
+  },{
+    image: Images1,
     title: "DJI Phantom 4 Multispectral",
-    price: "$500",
-  },
-  {
-    image: Images2,
+    price: "$232",
+  },{
+    image: Images1,
     title: "DJI Phantom 4 Multispectral",
-    price: "$233",
-  },
-  {
-    image: Images3,
+    price: "$232",
+  },{
+    image: Images1,
     title: "DJI Phantom 4 Multispectral",
-    price: "$250",
+    price: "$232",
   },
+  
 ];
 const BestSeller2 = () => {
   return (
     <>
-      <div className="bg-red-600 w-full">
-        <div className="grid grid-cols-3">
+      <div className=" w-full  col-span-3">
+        <div className="grid grid-cols-3 gap-3">
           {Flashsales.map((val, i) => {
             return (
-              <div className="flex flex-col bg-[#F3ECF3]  rounded-lg h-fit w-fit px-2">
-                <div className="flex justify-between items-center px-2">
-                  <div className="w-16 flex justify-center items-center h-fit bg-[#AD43AD] rounded-md text-white">
+              <div className="flex flex-col gap-4 bg-[#F3ECF3]  rounded-lg h-fit w-fit px-2 py-3">
+                <div className="flex justify-between items-center ">
+                  <div className="w-12 text-xs p-1 flex justify-center items-center h-fit bg-[#AD43AD] rounded-md text-white">
                     -20%
                   </div>
                   <IoMdStarOutline className="text-xl cursor-pointer" />
@@ -60,17 +57,17 @@ const BestSeller2 = () => {
                   />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <div className="text-sm  font-light">{val.title}</div>
+                  <div className="text-xs  font-bold">{val.title}</div>
                   <div className="flex gap-2">
                     <span>{val.price}</span>
                     <span className="line-through text-gray-500">$300</span>
                   </div>
                   <div className="flex gap-2 items-center">
-                    <IoStar className="text-yellow-500 text-xl" />
-                    <IoStar className="text-yellow-500 text-xl" />
-                    <IoStar className="text-yellow-500 text-xl" />
-                    <IoStar className="text-yellow-500 text-xl" />
-                    <IoMdStarOutline className="text-yellow-500 text-2xl" />
+                    <IoStar className="text-yellow-500 text-md" />
+                    <IoStar className="text-yellow-500 text-md" />
+                    <IoStar className="text-yellow-500 text-md" />
+                    <IoStar className="text-yellow-500 text-md" />
+                    <IoMdStarOutline className="text-yellow-500 text-xl" />
                   </div>
                 </div>
               </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import { CiFacebook, CiInstagram, CiMail, CiTwitter } from "react-icons/ci";
 import { Link } from "react-router-dom";
 

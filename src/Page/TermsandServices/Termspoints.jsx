@@ -100,7 +100,7 @@ const Termspoints = () => {
                     </div>
                     <div className="text-xl font-semibold">{val.title}</div>
                   </div>
-                  <div className="w-11/12 ">
+                  <div className="w-11/12 mt-2">
                     <p>{val.description}</p>
                   </div>
                 </div>

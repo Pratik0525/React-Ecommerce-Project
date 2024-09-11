@@ -1,12 +1,4 @@
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  BrowserRouter,
-} from "react-router-dom";
-
-import Footer from "./Footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Component/PageComponent/Home";
 import Layout from "./HOC/Layout";
 import About from "./Component/PageComponent/About";

@@ -1,31 +1,33 @@
-// import { ErrorMessage, Field, Formik } from "formik";
-// import React from "react";
-// import { FaApple, FaArrowCircleLeft, FaFacebook } from "react-icons/fa";
-// import { FcGoogle } from "react-icons/fc";
-// import { Form, Link } from "react-router-dom";
-// import * as Yup from "yup";
-// const schema = Yup.object().shape({
-//   email: Yup.string().required("Enter your Email or Phone Number"),
-//   password: Yup.number().required("Please! Enter Your Password"),
-// });
-// const Links = [
-//   {
-//     icon: <FcGoogle />,
-//     title: "Continue with Google",
-//   },
-//   {
-//     icon: <FaFacebook />,
-//     title: "Continue with Facebook",
-//   },
-//   {
-//     icon: <FaApple />,
-//     title: "Continue with Apple",
-//   },
-// ];
+import { ErrorMessage, Field, Form, Formik } from "formik";
+import React from "react";
+import { FaApple, FaArrowCircleLeft, FaFacebook } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
+import { Link } from "react-router-dom";
+import * as Yup from "yup";
+const schema = Yup.object().shape({
+  email: Yup.string()
+    // .email("Please enter your email")
+    .required("Enter your Email or Phone Number"),
+  password: Yup.number().required("Please! Enter Your Password"),
+});
+const Links = [
+  {
+    icon: <FcGoogle />,
+    title: "Continue with Google",
+  },
+  {
+    icon: <FaFacebook />,
+    title: "Continue with Facebook",
+  },
+  {
+    icon: <FaApple />,
+    title: "Continue with Apple",
+  },
+];
 const Signup2 = () => {
   return (
     <>
-      {/* <Formik
+      <Formik
         initialValues={{ email: "", password: "" }}
         validationSchema={schema}
         onSubmit={(values) => {
@@ -35,7 +37,7 @@ const Signup2 = () => {
       >
         {({ handleSubmit }) => {
           return (
-            <Form onSubmit={handleSubmit}>
+            <Form onSubmit={{ handleSubmit }}>
               <div className=" w-10/12 mx-auto flex flex-col gap-5 py-5">
                 <div className="flex justify-end items-center ">
                   <Link to="/">
@@ -79,7 +81,11 @@ const Signup2 = () => {
                         name="email"
                         className="w-full h-10 rounded-xl pl-2 border-2 border-[#c1c1c1]"
                       />
-                      <ErrorMessage />
+                      <ErrorMessage
+                        className="text-red-500"
+                        name="email"
+                        component="div"
+                      />
                     </div>
                     <div className="grid  gap-1 w-10/12 mx-auto">
                       <label htmlFor="password" className="text-sm">
@@ -89,6 +95,11 @@ const Signup2 = () => {
                         type="password"
                         name="password"
                         className="w-full h-10 rounded-xl pl-2 border-2 border-[#c1c1c1]"
+                      />
+                      <ErrorMessage
+                        className="text-red-500"
+                        name="password"
+                        component="div"
                       />
                     </div>
 
@@ -133,7 +144,7 @@ const Signup2 = () => {
             </Form>
           );
         }}
-      </Formik> */}
+      </Formik>
     </>
   );
 };
