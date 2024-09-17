@@ -46,7 +46,7 @@ const Whychoseus = () => {
               return (
                 <div
                   key={i}
-                  className="w-64 h-72 px-3 rounded-lg shadow-lg shadow-gray-300 bg-[#F1DAF1] flex flex-col justify-center items-center gap-5 "
+                  className="w-64 h-72 px-3 rounded-lg shadow-lg shadow-gray-300 bg-[#F1DAF1] flex flex-col justify-center items-center gap-5 hover:scale-110 transition-all delay-75 duration-200 ease-in-out cursor-pointer"
                 >
                   <div className="text-6xl text-[#AD43AD] ">{val.Icon}</div>
                   <div className="text-xl ">{val.topic}</div>

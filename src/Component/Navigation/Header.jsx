@@ -18,11 +18,11 @@ const Header = () => {
               <input
                 type="text"
                 name=""
-                id=""
+                id="search"
                 placeholder="Discover Your Next Must-have"
-                className="w-80 rounded-lg h-10 placeholder:text-sm"
+                className="w-80 rounded-lg h-10 placeholder:text-sm outline-none"
               />
-              <CiSearch className="   h-full w-6" />
+              <CiSearch to="search" className=" cursor-pointer  h-full w-6" />
             </div>
             <div>
               <input
@@ -30,7 +30,7 @@ const Header = () => {
                 name=""
                 id=""
                 placeholder="Category"
-                className="w-28 h-10 rounded-lg px-2 placeholder:text-sm"
+                className="w-28 h-10 rounded-lg px-2 placeholder:text-sm outline-none"
               />
             </div>
           </div>

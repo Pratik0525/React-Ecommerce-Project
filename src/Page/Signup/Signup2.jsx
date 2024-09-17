@@ -82,7 +82,7 @@ const Signup2 = () => {
                         className="w-full h-10 rounded-xl pl-2 border-2 border-[#c1c1c1]"
                       />
                       <ErrorMessage
-                        className="text-red-500"
+                        className="text-red-500 text-xs italic"
                         name="email"
                         component="div"
                       />
@@ -97,7 +97,7 @@ const Signup2 = () => {
                         className="w-full h-10 rounded-xl pl-2 border-2 border-[#c1c1c1]"
                       />
                       <ErrorMessage
-                        className="text-red-500"
+                        className="text-red-500 text-xs italic"
                         name="password"
                         component="div"
                       />
